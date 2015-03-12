@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scoreboard Applet</title>
+    <link href="scoreboard.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="scoreboard.js"></script>
+  </head>
+
+  <body>
+    <div class="score away">0</div>
+    <div class="score home">0</div>
+    <div class="clock"></div>
+
+    <br/>
+
+    <div class="controls">
+      <button class="increment-away">+</button>
+      <button class="decrement-away">-</button>
+      <button class="reset-away">RESET</button>
+    </div>
+    <div class="controls">
+      <button class="increment-home">+</button>
+      <button class="decrement-home">-</button>
+      <button class="reset-home">RESET</button>
+    </div>
+    <div class="controls">
+      <button class="start-clock">START</button>
+      <button class="pause-clock">PAUSE</button>
+      <button class="reset-clock">RESET</button>
+      <input type="text" id="t" value="180">
+    </div>
+
+  </body>
+</html>

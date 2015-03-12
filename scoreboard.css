@@ -1,0 +1,38 @@
+/* Scoreboard Applet
+   by cosmosd '15 */
+
+@font-face {
+  font-family: "Scoreboard";
+  src: url(score_board.ttf) format("truetype");
+}
+body {
+  font-family: "Scoreboard", Verdana, Tahoma;
+  background-color: black;
+}
+button, input {
+  border: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+button {
+  padding: 12px 18px;
+}
+input {
+  padding: 12px;
+}
+.score, .clock {
+  font-size: 200px;
+  display: inline-block;
+  padding: 40px;
+}
+.score {
+  color: yellow;
+}
+.clock {
+  color: white;
+}
+.controls {
+  display: inline-block;
+  border: solid 1px gray;
+  padding: 10px;
+}
